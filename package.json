@@ -1,0 +1,23 @@
+{
+  "name": "org-to-md",
+  "version": "1.0.0",
+  "description": "a little package to convert a folder of org files to markdown using pandoc",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:spec": "jest -c ./jest.spec.config.js",
+    "test:unit": "jest -c ./jest.unit.config.js"
+  },
+  "keywords": [
+    "org-mode",
+    "emacs",
+    "markdown"
+  ],
+  "author": "dbaker",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
